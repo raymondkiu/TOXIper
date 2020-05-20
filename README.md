@@ -2,7 +2,7 @@
 Toxinotype assignment of *Clostridium perfringens* via ABRicate. *C. perfringens* has 7 toxinotypes (i.e. A-G) based on the different combinations of toxin genes. A validated/published toxin gene database is included in this repository.
 
 ## Dependencies
-* ABRicate v1.0.1 (https://github.com/tseemann/abricate/tree/v1.0.1)and its dependencies (will be available using Conda)
+* ABRicate v1.0.1 (https://github.com/tseemann/abricate/tree/v1.0.1) and its dependencies (will be available using Conda)
 
 ## Usage
 To trigger help/usage option
@@ -14,7 +14,7 @@ $ TOXIper.sh -h
 This bash script assigns toxinotypes to C. perfringens genome assemblies using ABRicate v1.0.1 (type will be shown on stdout)
 Dependency: ABRicate v1.0.1 with toxinCP database
 
-Usage: /hpc-home/kiur/script/TOXIper.sh [options] FASTAFILE
+Usage: ./TOXIper.sh [options] FASTAFILE
 Option:
  -h print usage and exit
  -a print author and exit
