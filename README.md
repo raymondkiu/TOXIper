@@ -10,8 +10,8 @@ To trigger help/usage option
 ```
 $ TOXIper.sh -h
 
-This bash script assigns toxinotypes to C. perfringens genome assemblies using ABRicate v0.8.11 (type will be shown on stdout)
-Dependency: ABRicate v0.8.11 with toxinCP database
+This bash script assigns toxinotypes to C. perfringens genome assemblies using ABRicate v1.0.1 (type will be shown on stdout)
+Dependency: ABRicate v1.0.1 with toxinCP database
 
 Usage: /hpc-home/kiur/script/TOXIper.sh [options] FASTAFILE
 Option:
@@ -19,7 +19,7 @@ Option:
  -a print author and exit
  -v print version and exit
 
-Version 1.0
+Version 1.1
 Author: Raymond Kiu Raymond.Kiu@quadram.ac.uk (2020)
 ```
 #### Analyse a genome assembly
