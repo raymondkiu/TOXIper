@@ -24,8 +24,14 @@ Option:
 Version 1.1
 Author: Raymond Kiu Raymond.Kiu@quadram.ac.uk (2020)
 ```
-### Input
-A *C. perfringens* genome assembly in multi-fasta format. One at a time.
+### Input - genome assemnbly
+A *C. perfringens* genome assembly in multi-fasta format. One at a time. To give you an idea what a multi-fasta format is:
+```
+>Contig1
+ATTCGCGAAAGGCCCCCCTTTG
+ATGGGGTGTGCCCCCGGTGTGT
+```
+It will not work on bugs other than *C. perfringens* as genes will not be detected.
 
 ### To analyse a genome assembly
 Toxinotype (e.g. B) will be printed on the stdout
@@ -33,14 +39,18 @@ Toxinotype (e.g. B) will be printed on the stdout
 $ TOXIper.sh CP-21.fna 
 B
 ```
+ABRicate BLASTn cutoffs will be set at default, which is minimum nucleotide identity >80% and minimum coverage >80%.
 
 ### To save outcome into a file
 Use > to save outcome into a new file, for example (can be any file name you like)
 ```
 $ TOXIper.sh CP-21.fna > CP-21.toxinotype
 ```
-## Licences
-[GNUPLv3](https://github.com/raymondkiu/TOXIper/blob/master/LICENSE)
+## License
+[GPLv3](https://github.com/raymondkiu/TOXIper/blob/master/LICENSE)
+
+## Issues
+Please report bugs at the [issues page](https://github.com/raymondkiu/TOXIper/issues) so I can respond.
 
 ## Author
 Raymond Kiu Raymond.Kiu@quadram.ac.uk
