@@ -39,5 +39,8 @@ Use > to save outcome into a new file, for example (can be any file name you lik
 ```
 $ TOXIper.sh CP-21.fna > CP-21.toxinotype
 ```
+## Licences
+[GNUPLv3](https://github.com/raymondkiu/TOXIper/blob/master/LICENSE)
+
 ## Author
 Raymond Kiu Raymond.Kiu@quadram.ac.uk
