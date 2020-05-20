@@ -1,12 +1,13 @@
 # TOXIper
-Toxinotype assignment of *Clostridium perfringens* via ABRicate
+Toxinotype assignment of *Clostridium perfringens* via ABRicate. *C. perfringens* has 7 toxinotypes (i.e. A-G) based on the different combinations of toxin genes. A validated/published toxin gene database is included in this repository.
 
 ## Dependencies
 * ABRicate v1.0.1 (https://github.com/tseemann/abricate/tree/v1.0.1)and its dependencies (will be available using Conda)
 
 ## Usage
 To trigger help/usage option
-#### Help option
+
+### Help option
 ```
 $ TOXIper.sh -h
 
@@ -22,15 +23,20 @@ Option:
 Version 1.1
 Author: Raymond Kiu Raymond.Kiu@quadram.ac.uk (2020)
 ```
-#### Analyse a genome assembly
-Toxinotype (e.g. A) will be printed on the stdout
+### Input
+A *C. perfringens* genome assembly in multi-fasta format. One at a time.
+
+### To analyse a genome assembly
+Toxinotype (e.g. B) will be printed on the stdout
 ```
 $ TOXIper.sh CP-21.fna 
 B
 ```
 
-#### To save outcome into a file
+### To save outcome into a file
 Use > to save outcome into a new file, for example (can be any file name you like)
 ```
 $ TOXIper.sh CP-21.fna > CP-21.toxinotype
 ```
+## Author
+Raymond Kiu Raymond.Kiu@quadram.ac.uk
