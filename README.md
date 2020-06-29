@@ -53,8 +53,8 @@ $ TOXIper.sh CP-21.fna > CP-21.toxinotype
 Please report bugs at the [issues page](https://github.com/raymondkiu/TOXIper/issues) so I can respond.
 
 ## Citation
-Please cite [this paper](https://doi.org/10.3389/fmicb.2017.02485)if you used the toxin sequence database for toxinotyping.
-Also cite [ABRicate](https://github.com/tseemann/abricate/tree/v1.0.1) as a dependency.
+- Please cite [this paper](https://doi.org/10.3389/fmicb.2017.02485) if you used the toxin sequence database for toxinotyping.
+- Also cite [ABRicate](https://github.com/tseemann/abricate/tree/v1.0.1) as a dependency.
 
 ## Author
 Raymond Kiu Raymond.Kiu@quadram.ac.uk
