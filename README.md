@@ -56,5 +56,7 @@ Please report bugs at the [issues page](https://github.com/raymondkiu/TOXIper/is
 - Please cite [this paper](https://doi.org/10.3389/fmicb.2017.02485) if you used the toxin sequence database for toxinotyping.
 - Also cite [ABRicate](https://github.com/tseemann/abricate/tree/v1.0.1) as a dependency.
 
+If you use TOXIper for results in your publication, please cite:
+* Kiu R, *TOXIper: rapid toxinotyping of Clostridium perfringens genomes*, **GitHub** `https://github.com/raymondkiu/TOXIper`
 ## Author
 Raymond Kiu Raymond.Kiu@quadram.ac.uk
